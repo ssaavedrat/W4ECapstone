@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#foods .tab-content{
+    background-color: #ffe60033;
+}
+
+
+.card img{
+    height: 30%;
+    object-fit: cover;
+}	
+
+footer i{
+    color:white;
+}
