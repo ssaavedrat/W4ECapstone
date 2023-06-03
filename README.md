@@ -29,5 +29,5 @@ CSS3 styling *Note:The CSS code for the website is relatively short, as most of 
 
 1. Carousel: A carousel has been included in the header section.
 2. Nav Recipes: The navigation section has been designed to resemble a recipe card found in a grandma's drawer.
-3. Fixed Navbar: The navbar is fixed at the top, requiring adjustments to the body's top padding and some margins to maintain the DOM flow-control.
+3. Fixed Navbar: The navbar is fixed at the top, requiring adjustments to the body's top padding and some margins.
 4. Google Maps iframe: An iframe embedding a Google Maps view has been added.
