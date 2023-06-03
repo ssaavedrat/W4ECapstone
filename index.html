@@ -7,6 +7,7 @@
     <meta name="author" content="Sergio S" />
     <meta name="description" content="Sergio's Website" />
     <meta name="keywords" content="Biography, aboutMe, personalWebsite" />
+    <link rel="icon" href="assets/img/code-solid.svg" />
     <title>Sergio's Site</title>
     <!-- Bootstrap -->
     <link
@@ -33,9 +34,9 @@
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
 
-  <body>
+  <body class="pt-5">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#"> Sergio </a>
         <button
@@ -92,7 +93,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-5 d-flex flex-column justify-content-center text-center">
-          <h1 class="display-4">Sergio's Site</h1>
+          <h1 class="display-4 my-2">Sergio's Site</h1>
           <h2 class="h5 mb-3">Welcome to my personal website!</h2>
           <p class="text-start">
             Hello, my name is Sergio, and I'm excited to share a little bit about myself with you. This website is a little showcase of my skills, experience, and interests, and I hope you'll find it
@@ -104,8 +105,8 @@
     </header>
 
     <!-- About Me -->
-    <section id="aboutMe" class="container my-5">
-      <h2 class="display-5 mb-3">About Me</h2>
+    <section id="aboutMe" class="container py-5">
+      <h2 class="display-5 my-3">About Me</h2>
       <div class="row">
         <div class="col-md-4">
           <img class="img-fluid" src="assets/img/me.jfif" alt="My picture" />
@@ -133,8 +134,8 @@
     </section>
 
     <!-- Favourite Foods -->
-    <section id="foods" class="container my-5">
-      <h2 class="display-5 text-end mb-3">Favourite Foods</h2>
+    <section id="foods" class="container py-5">
+      <h2 class="display-5 text-end my-3">Favourite Foods</h2>
       <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
@@ -265,8 +266,8 @@
     </section>
 
     <!-- Courses -->
-    <section id="courses" class="container my-5">
-      <h2 class="display-5 mb-3">Courses</h2>
+    <section id="courses" class="container py-5">
+      <h2 class="display-5 my-3">Courses</h2>
       <p>Here are some courses that I have taken and recommend. I hope you find them useful too!</p>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -318,10 +319,28 @@
 
     <footer class="container-fluid bg-dark py-3">
       <div class="container py-2">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center my-3">
           <div class="col-md-3 text-center">
             <a class="mx-2" href="https://www.linkedin.com/in/sergio-saavedra-torres-0b362062/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-linkedin fa-2xl"></i></a>
             <a class="mx-2" href="https://github.com/ssaavedrat/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github fa-2xl"></i></a>
+          </div>
+        </div>
+
+        <p class="text-white fw-light text-center">@2023 Sergio Saavedra T. 🖥️ with ❤️ from Chile</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="ratio ratio-16x9 my-2 d-flex justify-content-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26822339.99718795!2d-109.53629071028067!3d-34.85091450942068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x505e1131102b91d!2sChile!5e0!3m2!1ses-419!2scl!4v1685804654597!5m2!1ses-419!2scl"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
